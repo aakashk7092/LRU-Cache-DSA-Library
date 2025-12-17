@@ -1,4 +1,4 @@
-# 🚀 LRU Cache Implementation (C++)
+# LRU Cache Implementation (C++)
 
 An efficient **LRU (Least Recently Used) Cache** implementation in C++ using  
 **Doubly Linked List + Hash Map**, supporting `O(1)` time complexity for both
@@ -6,21 +6,21 @@ An efficient **LRU (Least Recently Used) Cache** implementation in C++ using
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 Design a cache system with a fixed capacity that removes the **least recently used**
 item when the cache is full.
 
 ---
 
-## 🧠 Approach & Design
+## Approach & Design
 
 This implementation combines two data structures:
 
-### 1️⃣ Hash Map (`unordered_map`)
+### 1️ Hash Map (`unordered_map`)
 - Stores `key → Node*`
 - Enables **O(1)** access to cache entries
 
-### 2️⃣ Doubly Linked List
+### 2️ Doubly Linked List
 - Maintains usage order
 - **Most Recently Used** → Head
 - **Least Recently Used** → Tail
@@ -32,7 +32,7 @@ The cache class controls:
 
 ---
 
-## ⚙️ Operations
+## Operations
 
 ### `get(key)`
 - Returns value if key exists
@@ -46,7 +46,7 @@ The cache class controls:
 
 ---
 
-## ⏱️ Time & Space Complexity
+## Time & Space Complexity
 | Operation | Complexity |
 |---------|-----------|
 | `get()` | O(1) |
@@ -55,7 +55,7 @@ The cache class controls:
 
 ---
 
-## 🛠️ How to Compile & Run
+##  How to Compile & Run
 
 ```bash
 g++ -std=c++17 LRU_Cache/main.cpp \
