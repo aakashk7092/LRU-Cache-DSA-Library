@@ -10,5 +10,5 @@ int LRUCache::get(int key){
     Node* node = mp[key];
     dll.removeNode(node);
     dll.addFront(node);
-    return node->val;
+    return node->value;
 }
