@@ -1,7 +1,4 @@
 # LRU Cache Implementation (C++)
-![C++](https://img.shields.io/badge/Language-C%2B%2B-blue)
-![DSA](https://img.shields.io/badge/Concept-DSA-orange)
-![Status](https://img.shields.io/badge/Build-Passing-brightgreen)
 
 An efficient **LRU (Least Recently Used) Cache** implementation in C++ using  
 **Doubly Linked List + Hash Map**, supporting `O(1)` time complexity for both
@@ -75,6 +72,10 @@ Data_Structures/LinkedList/DoublyLinkedList.cpp \
 -1
 30
 40
+---
+![C++](https://img.shields.io/badge/Language-C%2B%2B-blue)
+![DSA](https://img.shields.io/badge/Concept-DSA-orange)
+![Status](https://img.shields.io/badge/Build-Passing-brightgreen)
 
 
 
