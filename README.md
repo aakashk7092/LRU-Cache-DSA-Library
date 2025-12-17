@@ -64,3 +64,12 @@ Data_Structures/LinkedList/DoublyLinkedList.cpp \
 -o lru
 
 ./lru
+
+## Sample Output
+10
+-1
+30
+-1
+30
+40
+
